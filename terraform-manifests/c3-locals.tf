@@ -10,11 +10,11 @@ locals {
 
   # Use-case-2: Common tags to be assigned to all resources
   service_name = "Demo Services"
-  owner = "Kalyan Reddy Daida"
+  owner = "Nitin Shikhare"
   common_tags = {
     Service = local.service_name
     Owner   = local.owner
-    #Tag1 = "Terraform-Cloud-Demo1"
+    Tag1 = "Terraform-Cloud-Demo1"
     #Tag2 = "Terraform-Cloud-Demo1-Workspace-Locked"
     #Tag3 = "Terraform-Cloud-Demo1-VCS-Demo"
     #Tag4 = "Terraform-Cloud-Demo1-Auto-Apply-Test"
